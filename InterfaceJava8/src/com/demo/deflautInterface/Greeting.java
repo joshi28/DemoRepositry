@@ -6,5 +6,7 @@ public interface Greeting {
 		return "Jinal";
 		
 	}
-
+	default void implementedMethod() {
+		System.out.println("in Interface");
+	}
 }
